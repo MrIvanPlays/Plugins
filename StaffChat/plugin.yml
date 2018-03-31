@@ -1,0 +1,23 @@
+name: StaffChat
+version: 1.1
+main: bg.me.mrivanplays.staffchat.StaffChat
+description: StaffChat plugin
+author: MrIvanPlays
+default: isoperator
+
+commands:
+  sc: 
+    description: Main command for the plugin
+    aliases: [staffchat]
+    permission: staffchat.basic
+    usage: /<command>
+
+permissions:
+  staffchat.*:
+    description: All permissions
+    child: 
+      staffchat.basic: true
+      staffchat.reload: true
+      staffchat.enable: true
+      staffchat.disable: true
+    

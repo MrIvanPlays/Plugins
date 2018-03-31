@@ -1,0 +1,19 @@
+#######################
+#      StaffChat      #
+#   by: MrIvanPlays   #
+#######################
+
+#################################
+# All color codes are available #
+#################################
+
+# This is the no permission message #
+noperm-message: '&4Error: You dont have permission to perform this command!'
+
+# This is the update-checking method. If you want it, leave it #
+# If you dont want it, make it false #
+update-check: true
+
+####################################################
+# End of the configuration - what do you expected? #
+####################################################

@@ -1,0 +1,20 @@
+###################
+# ReloadAnnouncer #
+# by: MrIvanPlays #
+###################
+
+# All color codes are supported
+
+noperm-message: "&4I can't do that..." # No permission message
+broadcast-message: "&eReload incoming, may have lag!" # The message that will be broadcasted when op player types /reload
+titlemessage: # If you want title messaging (this doesnt disable the chat broadcast-message)
+  enable: true
+  title: "&eReload incoming, may have lag!"
+  subtitle: "&bThis can take some time!" # Leave empty if you dont want subtitle
+reload-complete-messages: # If you want messaging when reload has been completed
+  enable: true # This effects the title message and the chat message
+  chat-message: "&aReload has been completed!"
+  # I think here no needed subtitle...
+  title-message: "&aReload has been completed!"
+
+# End of the configuration

@@ -1,0 +1,27 @@
+name: ReloadAnnouncer
+main: bg.me.mrivanplays.ReloadAnnouncer
+version: 1.0
+description: Announces when reload is proceeded
+author: MrIvanPlays
+
+commands:
+  sreload:
+    description: Announces reloading and reloads the server
+    default: op
+    usage: /<command>
+  rlan:
+    description: Basic command for the plugin
+    permission: reloadannouncer.basic
+    aliases: [reloadannouncer, reloadan, reloadann, rlann]
+    usage: /<command>
+  rlan reload:
+    description: Reloads the plugin
+    permission: reloadannouncer.reload
+    usage: /<command>
+
+permissions:
+  reloadannouncer.*:
+    description: All permissions
+    child:
+      reloadannouncer.basic: true
+      reloadannouncer.reload: true

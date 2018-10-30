@@ -1,0 +1,12 @@
+name: BanSystem
+version: 1.0.0
+main: net.mrivansoft.bansystem.Main
+description: Ban system
+
+commands:
+  ban:
+    description: Ban command
+    permission: bansystem.ban
+  unban:
+    description: Unban command
+    permission: bansystem.unban

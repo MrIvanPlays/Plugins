@@ -1,0 +1,4 @@
+name: ChroniumLobby
+version: 1.0.0
+main: net.mrivansoft.chroniumlobby.ChroniumLobby
+description: Lobby and hub commands

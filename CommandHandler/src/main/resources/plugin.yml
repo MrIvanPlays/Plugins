@@ -1,0 +1,9 @@
+name: CommandHandler
+version: ${project.version}
+main: net.mrivansoft.commandhandler.Main
+authors: [MrIvanPlays]
+description: An example command handler
+
+commands:
+  examplecmd:
+    description: Main command
